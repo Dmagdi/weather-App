@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px)
+{
+
+  #day-after,#today{
+    padding: 0 !important;
+
+  }
+  #today-degree {
+    font-size: 70px;
+  }
+  .hidden{
+   display: none !important;
+  }
+  .nav-links li:hover{
+    color: #1E202B;
+    border-color: #1E202B;
+   }
+   
+}

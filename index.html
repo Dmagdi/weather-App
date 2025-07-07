@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Follow the weather for 3 days">
+    <meta name="keywords" content="weather">
+    <title>Weather</title>
+    <!-- style links -->
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+
+    <main>
+
+        <nav id="main-nav" class="py-5">
+            <div class="inner-nav container d-flex justify-content-between">
+                <div class="nav-brand d-flex">
+                    <img src="logo@2x.png" alt="wave">
+                    <div class="content-brand ms-3 mt-1">
+                        <h1>Weather</h1>
+                        <span> tagline goes here</span>
+                    </div>
+                </div>
+
+                <div class="nav-links">
+                    <ul class="d-flex">
+                        <li class="active-page hidden"><a href="#">Home</a></li>
+                        <li><a href="#" class="hidden">News</a></li>
+                        <li><a href="#" class="hidden">Live cameras</a></li>
+                        <li><a href="#" class="hidden">Photos</a></li>
+                        <li><a href="#" class="hidden">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="data-section">
+            <div class="container">
+
+                <div class="position-relative pt-4 px-4">
+                    <input type="text" placeholder="Find your location..." id="searchLocation" class="w-100">
+                    <button class="btn" id="search-btn">Find</button>
+                </div>
+
+                <div class="row inner-main-data py-5" id="dataForCity">
+       
+                </div>
+
+            </div>
+        </section>
+
+        <section id="footer-section">
+            <div class="container ">
+                <div class="row py-5">
+
+                    <div class="input-footer position-relative col-md-8">
+                        <input type="text" placeholder="Enter your email to subscribe..." id="footer-input"
+                            class="w-100">
+                        <button id="subscribe-btn">Subscribe</button>
+                        <p class="text-white mt-3 ms-2">Copyright 2014 Company name. Designed by Themezy. All rights
+                            reserved</p>
+                    </div>
+
+                    <div class="icon-footer col-md-4 d-flex">
+                        <div class="icons"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="icons"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icons"><i class="fa-brands fa-google-plus-g"></i></div>
+                        <div class="icons"><i class="fa-brands fa-pinterest"></i></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
